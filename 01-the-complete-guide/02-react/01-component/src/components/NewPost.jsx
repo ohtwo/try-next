@@ -16,6 +16,7 @@ function NewPost({ onCancel, onAddPost }) {
   function submitHandler(event) {
     event.preventDefault();
     const postData = {
+      id: Date.now(),
       body: enteredBody,
       author: enteredAuthor,
     };
