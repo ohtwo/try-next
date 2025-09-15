@@ -13,12 +13,6 @@ export default function Home() {
         <Link href="/meals/share">Meals Share</Link>
       </p>
       <p>
-        <Link href="/meals/post-1">Meals Post 1</Link>
-      </p>
-      <p>
-        <Link href="/meals/post-2">Meals Post 1</Link>
-      </p>
-      <p>
         <Link href="/community">Community</Link>
       </p>
     </main>
