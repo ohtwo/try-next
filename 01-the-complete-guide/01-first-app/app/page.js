@@ -8,7 +8,10 @@ export default function Home() {
       <Header />
       <p>🔥 Let&apos;s get started! 🔥</p>
       <p>
-        <Link href="awesome">Awesome</Link>
+        <Link href="/awesome">Awesome</Link>
+      </p>
+      <p>
+        <Link href="/blog">Blog</Link>
       </p>
     </main>
   );
