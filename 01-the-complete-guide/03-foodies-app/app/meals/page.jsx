@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import MealsGrid from "@/components/meals/meals-grid";
 import styles from "./page.module.css";
-import getMeals from "@/lib/meals";
+import { getMeals } from "@/lib/meals";
 import MealsLoading from "@/components/meals/meals-loading";
 
 async function Meals() {
