@@ -6,6 +6,11 @@ import styles from "./page.module.css";
 import { getMeals } from "@/lib/meals";
 import MealsLoading from "@/components/meals/meals-loading";
 
+export const metadata = {
+  title: "All Meals",
+  description: "Browse the delicious meals shared by our vibrant community.",
+};
+
 async function Meals() {
   console.log("Fetching meals...");
   const meals = await getMeals();
